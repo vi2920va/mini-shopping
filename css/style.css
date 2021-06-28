@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+  overflow: scroll;
+  background:#f5f3e9 ;
+}
+
+
+main{
+  width: 450px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: -20px -20px 0px 0px rgb(100 100 100 / 10%);
+  background: #98c0b7;
+  color: #fff;
+}
+
+
+h1{
+  font-size: 1.667rem;
+  text-align: center;
+}
+
+h2{
+  font-size: 22px;
+  margin-top: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+/* add-form */
+.add-form > div{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* add-form input */
+.add-input{
+  width: calc(100% - 70px);
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 10px;
+  font-size: 1.667rem;
+  line-height: 40px;
+  background: #fff;
+}
+
+/* add-form - error message */
+.error.message {
+  margin: 0 0 10px 5px;
+  font-size: 1.25rem;
+  color: red;
+}
+
+/* add-form button */
+.add-btn{
+  font-size: 1.25rem;
+}
+
+/* todo - ul li */
+.todo ul li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a2cec4;
+}
+
+/* todo - ul li checkbox  */
+.todo li input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+  margin: 11px 10px 0 0;
+  line-height: 16px;
+}
+
+/* todo -ul.incomple li label */
+.todo .incomplete li label{
+  width: calc(100% - 165px);
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+/*  todo -ul.incomple li input(edit) */
+.todo .incomplete li input[type="text"]{
+  width: calc(100% - 170px);
+  margin: 6px 0;
+  height: 25px;
+  border: 1px solid #91d4c5;
+  line-height: 25px;
+  font-size: 1.5rem;
+}
+
+/* todo -ul.completed li label */
+.todo .completed li label{
+  width: calc(100% - 85px);
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+/* todo - li butgrop buttons */
+.todo-btngroup button{
+  padding: 0 10px 0 0;
+  margin: 10px 10px 0 0; 
+  font-size: 1.25rem;
+}
+
+/* todo - li btngroup saveBtn(edit) */
+.todo-btngroup .save-btn{
+  padding: 0;
+}
+
+.todo-btngroup button:last-child{
+  padding: 0;
+}
