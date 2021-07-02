@@ -42,13 +42,7 @@ h2{
   font-size: 1.667rem;
   line-height: 40px;
   background: #fff;
-}
-
-/* add-form - error message */
-.error.message {
-  margin: 0 0 10px 5px;
-  font-size: 1.25rem;
-  color: red;
+  color: black;
 }
 
 /* add-form button */
