@@ -8,10 +8,11 @@
   <title>vanilla todo</title>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
+  <script defer src="js/todo.js"></script>
 </head>
 
 <body>
-  <main>
+  <main class="todoContent">
     <header>
       <h1 class="title">todo list</h1>
     </header>
@@ -21,10 +22,9 @@
       <form class="add-form">
         <div>
           <label for="addInput" class="a11y-hidden">할 일 추가</label>
-          <input type="text" id="addInput" class="add-input" />
+          <input type="text" id="addInput" class="add-input" required />
           <button type="submit" class="add-btn">add</button>
         </div>
-        <p class="error"></p>
       </form>
     </section>
     <!-- // add item  -->
@@ -32,23 +32,6 @@
     <section class="todo">
       <h2>todo</h2>
       <ul class="incomplete">
-        <li>
-          <input id="" type="checkbox" />
-          <label for="">test~~</label>
-          <div class="todo-btngroup">
-            <button type="button" class="edit-btn">edit</button>
-            <button type="button" class="delete-btn">delete</button>
-          </div>
-        </li>
-        <li>
-          <input id="" type="checkbox" />
-          <label for="" class="a11y-hidden">수정~~~</label>
-          <input id="" type="text" value="test~~~~~" />
-          <div class="todo-btngroup">
-            <button type="button" class="save-btn">save</button>
-            <button type="button" class="delete-btn">delete</button>
-          </div>
-        </li>
       </ul>
     </section>
     <!-- // todo list   -->
@@ -56,13 +39,6 @@
     <section class="todo">
       <h2>completed</h2>
       <ul class="completed">
-        <li>
-          <input id="" type="checkbox" />
-          <label for="">test~~</label>
-          <div class="todo-btngroup">
-            <button type="button" class="delete-btn">delete</button>
-          </div>
-        </li>
       </ul>
     </section>
     <!-- completed list   -->
