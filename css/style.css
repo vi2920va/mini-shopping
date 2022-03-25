@@ -25,13 +25,11 @@ h2{
   border-bottom: 1px solid #fff;
 }
 
-/* add-form */
 .add-form > div{
   display: flex;
   justify-content: space-between;
 }
 
-/* add-form input */
 .add-input{
   width: calc(100% - 70px);
   height: 2.5rem;
@@ -43,19 +41,16 @@ h2{
   color: black;
 }
 
-/* add-form button */
 .add-btn{
   font-size: 1.25rem;
 }
 
-/* todo - ul li */
 .todo ul li{
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #a2cec4;
 }
 
-/* todo - ul li checkbox  */
 .todo li input[type="checkbox"]{
   width: 1rem;
   height: 1rem;
@@ -63,7 +58,6 @@ h2{
   line-height: 1rem;
 }
 
-/* todo -ul.incomple li label */
 .todo .incomplete li label{
   width: calc(100% - 165px);
   margin : 0.5625rem 0;
@@ -72,7 +66,6 @@ h2{
   font-size: 1.5rem;
 }
 
-/*  todo -ul.incomple li input(edit) */
 .todo .incomplete li input[type="text"]{
   width: calc(100% - 165px);
   height: 1.563rem;
@@ -82,7 +75,6 @@ h2{
   font-size: 1.5rem;
 }
 
-/* todo -ul.completed li label */
 .todo .completed li label{
   width: calc(100% - 85px);
   height: 1.563rem;
@@ -91,14 +83,12 @@ h2{
   font-size: 1.5rem;
 }
 
-/* todo - li butgrop buttons */
 .todo-btngroup button{
   padding: 0 0.625rem 0 0;
   margin: 0.5rem 0.625rem 0 0;
   font-size: 1.25rem;
 }
 
-/* todo - li btngroup saveBtn(edit) */
 .todo-btngroup .save-btn{
   padding: 0;
 }

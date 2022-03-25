@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* margin, padding */
 body, 
 main, 
 div, 
@@ -20,12 +19,10 @@ i{
   padding: 0;
 }
 
-/* label */
 label{
   background: transparent;
 }
 
-/* input */
 input{
   border: none;
   outline:none;
@@ -36,7 +33,6 @@ input[type="checkbox"]{
   cursor: pointer;
 }
 
-/* button */
 button{
   border: none;
   outline: none;
@@ -45,13 +41,11 @@ button{
   cursor: pointer;
 }
 
-/* list */
 ul,
 li{
   list-style:none;
 }
 
-/* title  */
 h1,
 h2,
 h3{
@@ -63,7 +57,18 @@ i {
   font-style: normal;
 }
 
-body, input, button, div,label, span, p, h1, h2, h3 ul, li{
+body, 
+input,
+button, 
+div,
+label, 
+span, 
+p, 
+h1, 
+h2, 
+h3,
+ul, 
+li{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
