@@ -58,6 +58,7 @@
         renderTodo();
         saveTodoList();
         saveCompletedList();
+
         // edit button
       } else if (e.target.className === 'edit-btn') {
         list = [...todoList];
